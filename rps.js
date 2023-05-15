@@ -4,7 +4,7 @@ function computerChoice() {
     const rando = Math.floor(Math.random() * 3)
     const choices = ['rock', 'paper', 'scissors']
     
-
+//midoficiation to see if itll change in the cmd git status just from saving
     console.log(choices[rando])
     return choices[rando]
 }
